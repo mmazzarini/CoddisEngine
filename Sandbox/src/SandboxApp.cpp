@@ -13,7 +13,7 @@ public:
 	{
 
 	}
-};
+}; 
 
 CoddisEngine::Application* CoddisEngine::CreateApplication()
 {

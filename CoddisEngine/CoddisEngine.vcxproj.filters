@@ -1,36 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="File di origine">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="CoddisEngine">
+      <UniqueIdentifier>{71FFA134-5D62-31D9-06E8-698FF229FD5B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="File di intestazione">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="File di risorse">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CoddisEngine.h" />
+    <ClInclude Include="src\CoddisEngine\Application.h">
+      <Filter>CoddisEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoddisEngine\Core.h">
+      <Filter>CoddisEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoddisEngine\EntryPoint.h">
+      <Filter>CoddisEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoddisEngine\Log.h">
+      <Filter>CoddisEngine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CoddisEngine\Application.cpp">
-      <Filter>File di origine</Filter>
+      <Filter>CoddisEngine</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\CoddisEngine\Application.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="src\CoddisEngine\Core.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="src\CoddisEngine.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
-    <ClInclude Include="src\CoddisEngine\EntryPoint.h">
-      <Filter>File di intestazione</Filter>
-    </ClInclude>
+    <ClCompile Include="src\CoddisEngine\Log.cpp">
+      <Filter>CoddisEngine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 #include "CoddisEngine/Application.h"
+#include "CoddisEngine/Log.h"
 
 // Entry point for engine
 #include "CoddisEngine/EntryPoint.h"
